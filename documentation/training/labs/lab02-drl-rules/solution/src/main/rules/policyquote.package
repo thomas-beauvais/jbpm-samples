@@ -1,0 +1,5 @@
+package org.acme.insurance.pricing
+
+import org.acme.insurance.Driver;
+import org.acme.insurance.Policy;
+import org.acme.insurance.Rejection;

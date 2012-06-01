@@ -1,0 +1,32 @@
+#created on: Jul 6, 2010
+package org.acme.insurance.pricing
+
+#list any import classes here.
+
+expander acme.dsl
+
+
+#declare any global variables here
+salience -10
+
+
+
+rule "PriceMultipleVehicles"
+	no-loop 
+	when
+		#conditions
+		There is a Driver
+		There is a Policy
+		- policy has a driver {driver}
+		- policy type is 'MASTER'
+		- price is equal to 0
+		Sum all policies for the same driver
+			
+	then 
+		#actions
+		Modify policy
+		logRule		
+		
+end
+
+

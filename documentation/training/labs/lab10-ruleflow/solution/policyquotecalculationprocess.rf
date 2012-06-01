@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<process xmlns="http://drools.org/drools-5.0/process"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+         xs:schemaLocation="http://drools.org/drools-5.0/process drools-processes-5.0.xsd"
+         type="RuleFlow" name="flow" id="policyquotecalculationprocess" package-name="org.acme.insurance.pricing" >
+
+  <header>
+    <imports>
+      <import name="org.acme.insurance.Rejection" />
+    </imports>
+  </header>
+
+  <nodes>
+    <start id="1" name="Start" x="36" y="98" width="80" height="40" />
+    <ruleSet id="2" name="rejection" x="177" y="98" width="80" height="40" ruleFlowGroup="rejection" />
+    <ruleSet id="3" name="calculation" x="441" y="99" width="80" height="40" ruleFlowGroup="calculation" />
+    <split id="4" name="Split" x="308" y="92" width="80" height="40" type="2" >
+      <constraints>
+        <constraint toNodeId="5" toType="DROOLS_DEFAULT" name="rejected" priority="1" type="rule" dialect="mvel" >exists Rejection()</constraint>
+        <constraint toNodeId="3" toType="DROOLS_DEFAULT" name="not rejected" priority="1" type="rule" dialect="mvel" >not Rejection()</constraint>
+      </constraints>
+    </split>
+    <join id="5" name="Join" x="316" y="424" width="80" height="40" type="2" />
+    <end id="6" name="End" x="399" y="485" width="80" height="40" />
+    <ruleSet id="7" name="surcharge" x="442" y="181" width="80" height="40" ruleFlowGroup="surcharge" />
+    <ruleSet id="8" name="total" x="449" y="366" width="80" height="40" ruleFlowGroup="total" />
+    <ruleSet id="9" name="discount" x="447" y="271" width="80" height="48" ruleFlowGroup="discount" />
+  </nodes>
+
+  <connections>
+    <connection from="1" to="2" />
+    <connection from="4" to="3" />
+    <connection from="2" to="4" />
+    <connection from="4" to="5" />
+    <connection from="8" to="5" />
+    <connection from="5" to="6" />
+    <connection from="3" to="7" />
+    <connection from="9" to="8" />
+    <connection from="7" to="9" />
+  </connections>
+
+</process>

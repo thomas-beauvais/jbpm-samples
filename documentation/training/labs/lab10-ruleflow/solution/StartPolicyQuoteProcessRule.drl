@@ -1,0 +1,13 @@
+#created on: Jul 30, 2009
+package org.acme.insurance.pricing
+
+rule "StartPolicyQuoteProcess"
+salience 100
+	when
+		#conditions
+	then 
+		#actions
+		kcontext.getKnowledgeRuntime().startProcess("policyquotecalculationprocess");
+		
+end
+

@@ -1,0 +1,57 @@
+
+Part 1:
+
+Rule "SafeYouths"
+
+If the driver is young and safe
+Then the price is 450 
+
+
+Rule "RiskyYouths"
+
+If the driver is young and risky
+Then the price is 700
+
+
+Rule "SafeAdults"
+
+If the driver is an adult and safe
+Then the price is 120
+
+
+Rule "RiskyAdults"	
+
+If the driver is an adult and risky
+Then the price is 300			
+	
+
+
+
+Part 2:
+
+
+Rule "SafeYouths"
+
+If the driver age is between 18 and 24 and numberOfAccidents == 0 and numberOfTickets < 2
+Then policy price = 450 
+
+
+Rule "RiskyYouths"
+
+If the driver age is between 18 and 24 and numberOfAccidents > 0 or numberOfTickets >= 2
+Then policy price = 700
+
+
+Rule "SafeAdults"
+
+If the driver age is > 24 and numberOfAccidents == 0 and numberOfTickets < 2
+Then policy price = 120
+
+
+Rule "RiskyAdults"	
+
+If the driver age is > 24 and numberOfAccidents > 0 or numberOfTickets >= 2
+Then policy price = 300			
+	
+
+

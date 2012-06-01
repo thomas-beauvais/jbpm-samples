@@ -1,0 +1,19 @@
+#created on: Mar 27, 2012
+package org.acme.insurance.pricing
+
+#list any import classes here.
+import org.acme.insurance.Driver
+import org.acme.insurance.Policy
+
+rule "riskyyouths"
+
+    when
+        #conditions
+        driver : Driver(age > 17 && < 25, numberOfAccidents > 0 || numberOfTickets >= 2)
+		policy : Policy(price == 0, policyType == "AUTO")
+    then
+        #actions
+		modify(policy) {setPrice(700)}
+		System.out.println("fired rule " + kcontext.getRule().getName());
+end
+
