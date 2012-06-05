@@ -1,57 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>jbpm-samples</groupId>
-  <artifactId>jbpm-samples</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>jbpm-samples</name>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <packaging>jar</packaging>
-  <properties>
-  	<version.brms>5.3.0.BRMS-ER8</version.brms>
-  </properties>
-  
-  <build>
-  	<finalName>${project.artifactId}</finalName>
-  </build>
-  
-  <dependencies>
+    <groupId>jbpm-samples</groupId>
+    <artifactId>jbpm-samples</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
 
-	<dependency>
-		<groupId>log4j</groupId>
-		<artifactId>log4j</artifactId>
-		<version>1.2.16</version>
-	</dependency>
+    <name>_aggregator-jbpm-samples</name>
 
-	<dependency>
-		<groupId>xstream</groupId>
-		<artifactId>xstream</artifactId>
-		<version>1.2.2</version>
-	</dependency>
+    <modules>
+        <module>jbpm-simple-samples</module>
+    </modules>
 
-	<dependency>
-		<groupId>org.jbpm</groupId>
-		<artifactId>jbpm-bpmn2</artifactId>
-	 	<version>${version.brms}</version>
-	</dependency>
-	
-	<dependency>
-		<groupId>org.jbpm</groupId>
-		<artifactId>jbpm-test</artifactId>
-	 	<version>${version.brms}</version>
-	</dependency>
-
-	<dependency>
-		<groupId>org.drools</groupId>
-		<artifactId>knowledge-api</artifactId>
-		<version>${version.brms}</version>
-	</dependency>
-
-	<dependency>
-  		<groupId>org.drools</groupId>
-  		<artifactId>drools-core</artifactId>
-  		<version>${version.brms}</version>
-  	</dependency>
-
-  </dependencies>
-  
 </project>
+
