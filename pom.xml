@@ -2,15 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>jbpm-samples</groupId>
+    <groupId>jbpm.samples</groupId>
     <artifactId>jbpm-samples</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
-    <name>_aggregator-jbpm-samples</name>
+    <name>Rd Hat :: Aggregator JBPM Samples for BRMS 5.3+</name>
 
     <modules>
         <module>jbpm-simple-samples</module>
+		<module>jbpm-sample-spring-1</module>
     </modules>
 
 </project>
