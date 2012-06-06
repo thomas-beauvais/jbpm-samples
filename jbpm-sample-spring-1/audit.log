@@ -1,0 +1,644 @@
+<object-stream>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>lastName</variableId>
+  <variableInstanceId>lastName</variableInstanceId>
+  <objectToString>Smith</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>lastName</variableId>
+  <variableInstanceId>lastName</variableInstanceId>
+  <objectToString>Smith</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>userId</variableId>
+  <variableInstanceId>userId</variableInstanceId>
+  <objectToString>maker1</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>userId</variableId>
+  <variableInstanceId>userId</variableInstanceId>
+  <objectToString>maker1</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>ssn</variableId>
+  <variableInstanceId>ssn</variableInstanceId>
+  <objectToString>123456789</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>ssn</variableId>
+  <variableInstanceId>ssn</variableInstanceId>
+  <objectToString>123456789</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>decision</variableId>
+  <variableInstanceId>decision</variableInstanceId>
+  <objectToString>search</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>decision</variableId>
+  <variableInstanceId>decision</variableInstanceId>
+  <objectToString>search</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowLogEvent>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>8</type>
+</org.drools.audit.event.RuleFlowLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>1</nodeId>
+  <nodeName>Start</nodeName>
+  <nodeInstanceId>0</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>1</nodeId>
+  <nodeName>Start</nodeName>
+  <nodeInstanceId>0</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>26</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>15</nodeId>
+  <nodeName>Join</nodeName>
+  <nodeInstanceId>1</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>15</nodeId>
+  <nodeName>Join</nodeName>
+  <nodeInstanceId>1</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>26</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>13</nodeId>
+  <nodeName>Split0</nodeName>
+  <nodeInstanceId>2</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>13</nodeId>
+  <nodeName>Split0</nodeName>
+  <nodeInstanceId>2</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>26</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>4</nodeId>
+  <nodeName>search</nodeName>
+  <nodeInstanceId>3</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>x</variableId>
+  <variableInstanceId>x</variableInstanceId>
+  <objectToString>yes</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>x</variableId>
+  <variableInstanceId>x</variableInstanceId>
+  <objectToString>yes</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>4</nodeId>
+  <nodeName>search</nodeName>
+  <nodeInstanceId>3</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>26</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>14</nodeId>
+  <nodeName>Split3</nodeName>
+  <nodeInstanceId>4</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>14</nodeId>
+  <nodeName>Split3</nodeName>
+  <nodeInstanceId>4</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>26</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>8</nodeId>
+  <nodeName>NeedMoreInfo</nodeName>
+  <nodeInstanceId>5</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>8</nodeId>
+  <nodeName>NeedMoreInfo</nodeName>
+  <nodeInstanceId>5</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>14</nodeId>
+  <nodeName>Split3</nodeName>
+  <nodeInstanceId>4</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>27</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>14</nodeId>
+  <nodeName>Split3</nodeName>
+  <nodeInstanceId>4</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>4</nodeId>
+  <nodeName>search</nodeName>
+  <nodeInstanceId>3</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>27</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>4</nodeId>
+  <nodeName>search</nodeName>
+  <nodeInstanceId>3</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>13</nodeId>
+  <nodeName>Split0</nodeName>
+  <nodeInstanceId>2</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>27</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>13</nodeId>
+  <nodeName>Split0</nodeName>
+  <nodeInstanceId>2</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>15</nodeId>
+  <nodeName>Join</nodeName>
+  <nodeInstanceId>1</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>27</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>15</nodeId>
+  <nodeName>Join</nodeName>
+  <nodeInstanceId>1</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>1</nodeId>
+  <nodeName>Start</nodeName>
+  <nodeInstanceId>0</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>27</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>1</nodeId>
+  <nodeName>Start</nodeName>
+  <nodeInstanceId>0</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowLogEvent>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>9</type>
+</org.drools.audit.event.RuleFlowLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>lastName</variableId>
+  <variableInstanceId>lastName</variableInstanceId>
+  <objectToString>null</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>lastName</variableId>
+  <variableInstanceId>lastName</variableInstanceId>
+  <objectToString>null</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>userId</variableId>
+  <variableInstanceId>userId</variableInstanceId>
+  <objectToString>null</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>userId</variableId>
+  <variableInstanceId>userId</variableInstanceId>
+  <objectToString>null</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>ssn</variableId>
+  <variableInstanceId>ssn</variableInstanceId>
+  <objectToString>null</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>ssn</variableId>
+  <variableInstanceId>ssn</variableInstanceId>
+  <objectToString>null</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>decision</variableId>
+  <variableInstanceId>decision</variableInstanceId>
+  <objectToString>nameScreening</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>decision</variableId>
+  <variableInstanceId>decision</variableInstanceId>
+  <objectToString>nameScreening</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>x</variableId>
+  <variableInstanceId>x</variableInstanceId>
+  <objectToString>null</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>x</variableId>
+  <variableInstanceId>x</variableInstanceId>
+  <objectToString>null</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>8</nodeId>
+  <nodeName>NeedMoreInfo</nodeName>
+  <nodeInstanceId>5</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>26</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>15</nodeId>
+  <nodeName>Join</nodeName>
+  <nodeInstanceId>6</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>15</nodeId>
+  <nodeName>Join</nodeName>
+  <nodeInstanceId>6</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>26</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>13</nodeId>
+  <nodeName>Split0</nodeName>
+  <nodeInstanceId>7</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>13</nodeId>
+  <nodeName>Split0</nodeName>
+  <nodeInstanceId>7</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>26</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>17</nodeId>
+  <nodeName>Join2</nodeName>
+  <nodeInstanceId>8</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>17</nodeId>
+  <nodeName>Join2</nodeName>
+  <nodeInstanceId>8</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>26</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>3</nodeId>
+  <nodeName>NameScreening</nodeName>
+  <nodeInstanceId>9</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>y</variableId>
+  <variableInstanceId>y</variableInstanceId>
+  <objectToString>no</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>y</variableId>
+  <variableInstanceId>y</variableInstanceId>
+  <objectToString>no</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>recordId</variableId>
+  <variableInstanceId>recordId</variableInstanceId>
+  <objectToString>0</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>32</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowVariableLogEvent>
+  <variableId>recordId</variableId>
+  <variableInstanceId>recordId</variableInstanceId>
+  <objectToString>0</objectToString>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>33</type>
+</org.drools.audit.event.RuleFlowVariableLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>3</nodeId>
+  <nodeName>NameScreening</nodeName>
+  <nodeInstanceId>9</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>26</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>2</nodeId>
+  <nodeName>Split1</nodeName>
+  <nodeInstanceId>10</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>2</nodeId>
+  <nodeName>Split1</nodeName>
+  <nodeInstanceId>10</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>26</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>10</nodeId>
+  <nodeName>NoRecordFound</nodeName>
+  <nodeInstanceId>11</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>24</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>10</nodeId>
+  <nodeName>NoRecordFound</nodeName>
+  <nodeInstanceId>11</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>2</nodeId>
+  <nodeName>Split1</nodeName>
+  <nodeInstanceId>10</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>27</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>2</nodeId>
+  <nodeName>Split1</nodeName>
+  <nodeInstanceId>10</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>3</nodeId>
+  <nodeName>NameScreening</nodeName>
+  <nodeInstanceId>9</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>27</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>3</nodeId>
+  <nodeName>NameScreening</nodeName>
+  <nodeInstanceId>9</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>17</nodeId>
+  <nodeName>Join2</nodeName>
+  <nodeInstanceId>8</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>27</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>17</nodeId>
+  <nodeName>Join2</nodeName>
+  <nodeInstanceId>8</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>13</nodeId>
+  <nodeName>Split0</nodeName>
+  <nodeInstanceId>7</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>27</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>13</nodeId>
+  <nodeName>Split0</nodeName>
+  <nodeInstanceId>7</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>15</nodeId>
+  <nodeName>Join</nodeName>
+  <nodeInstanceId>6</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>27</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>15</nodeId>
+  <nodeName>Join</nodeName>
+  <nodeInstanceId>6</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>25</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <nodeId>8</nodeId>
+  <nodeName>NeedMoreInfo</nodeName>
+  <nodeInstanceId>5</nodeInstanceId>
+  <processId>com.citi.kyc.addNewClient</processId>
+  <processName>Add KYC</processName>
+  <processInstanceId>1</processInstanceId>
+  <type>27</type>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+</object-stream>
