@@ -177,7 +177,7 @@ public class ProcessMain {
         pds.init();
         return pds;
 	}
-	
+
 	private static void createTaskService() {
 		org.jbpm.task.service.TaskService taskServiceImpl;
 		if( useSpring ) { 

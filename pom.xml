@@ -12,6 +12,8 @@
     <modules>
         <module>jbpm-simple-samples</module>
 		<module>jbpm-sample-spring-1</module>
+		<module>jbpm-sample-spring-2</module>
+        <module>jbpm-spring-web</module>
     </modules>
 
 </project>

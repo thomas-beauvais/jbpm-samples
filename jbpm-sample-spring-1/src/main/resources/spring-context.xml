@@ -30,7 +30,7 @@
     <property name="persistenceUnitName" value="org.jbpm.all" />
     <!-- 
     <property name="jpaVendorAdapter">
-      <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+      <bean class="org.springframework.orm.META-INF.vendor.HibernateJpaVendorAdapter">
         <property name="database" value="H2" />
         <property name="showSql" value="false" />
       </bean>
